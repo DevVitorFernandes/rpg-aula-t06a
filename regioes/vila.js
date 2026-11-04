@@ -13,7 +13,6 @@ function vila(heroi) {
     } else if (escolha === "2") {
         return "poco";
     }
-    console.log("Valor inválido, sabe ler não?")
     return "vila"
 }
 

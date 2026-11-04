@@ -1,5 +1,4 @@
-
-const TESTE = true; // true = a sorte fica fixa, para o roteiro de teste
+const TESTE = false; // true = a sorte fica fixa, para o roteiro de teste
 
 
 function sorte(chance) {
@@ -9,5 +8,6 @@ function sorte(chance) {
     }
     return sorte < chance
 }
+
 
 module.exports = sorte;
