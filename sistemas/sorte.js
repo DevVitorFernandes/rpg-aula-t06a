@@ -1,7 +1,7 @@
 const TESTE = false; // true = a sorte fica fixa, para o roteiro de teste
 
 
-function sorte(chance) {
+function sortear(chance) {
     let sorte = Math.random();
     if (TESTE) {
         sorte = 0.2;
@@ -10,4 +10,4 @@ function sorte(chance) {
 }
 
 
-module.exports = sorte;
+module.exports = sortear;
